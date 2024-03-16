@@ -9,7 +9,28 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 50px;
+    height: 100px;
     width: 10px;
+    background-color: black;
+}
+
+#stickmen:before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#stickmen:after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: -50px;
+    height: 10px;
+    width: 100px;
     background-color: black;
 }
